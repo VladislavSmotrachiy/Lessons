@@ -26,3 +26,4 @@
 /Users/vladislavnikitenkov/Lessons /Lessons/obj/Debug/net9.0/ConsoleApp1.pdb
 /Users/vladislavnikitenkov/Lessons /Lessons/obj/Debug/net9.0/ConsoleApp1.genruntimeconfig.cache
 /Users/vladislavnikitenkov/Lessons /Lessons/obj/Debug/net9.0/ref/ConsoleApp1.dll
+/Users/vladislavnikitenkov/Lessons /Lessons/obj/Debug/net9.0/ConsoleApp1.sourcelink.json
