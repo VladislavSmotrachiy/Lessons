@@ -138,6 +138,7 @@ public class FunctionsExample
         //     System.Console.WriteLine("No");
         // }
 
-        Second.calculater();
+         Second.calculate();
+        Second.testMonth();
     }
 }

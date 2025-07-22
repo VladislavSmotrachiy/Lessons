@@ -34,12 +34,12 @@ public class Second
 
     }
 
-    public static void calculater()
+    public static void calculate()
     {
 
         System.Console.WriteLine("Число");
         int number = Convert.ToInt32(Console.ReadLine());
-        string operato = Console.ReadLine();
+        string operato = Console.ReadLine()!;
         int numberSecond = Convert.ToInt32(Console.ReadLine());
 
         if (operato != "/" && operato != "*" && operato != "-" && operato != "+")
@@ -80,9 +80,29 @@ public class Second
                 System.Console.WriteLine(number + numberSecond);
             }
         }
+    }
 
+    public static void testMonth()
+    {
+        System.Console.WriteLine("Введи месяц");
+        int month = Convert.ToInt32(Console.ReadLine());
 
-
+        switch (month)
+        {
+            case 1: Console.WriteLine("Январь 31день."); break;
+            case 2: Console.WriteLine("Феварль 28 день"); break;
+            case 3: Console.WriteLine("Март 30 день"); break;
+            case 4: Console.WriteLine("Апрель 31день"); break;
+            case 5: Console.WriteLine("Май 30 дней"); break;
+            case 6: Console.WriteLine("Июнь 31 "); break;
+            case 7: Console.WriteLine("Июль 31"); break;
+            case 8: Console.WriteLine("август 31"); break;
+            case 9: Console.WriteLine("сентябрь 30!"); break;
+            case 10: Console.WriteLine("Октябрь 31"); break;
+            case 11: Console.WriteLine("ноябрь 30"); break;
+            case 12: Console.WriteLine("декабрь 31"); break;
+            default: Console.WriteLine("Пока еще не приудмали такой месяц и там дней 0"); break;
+        }
     }
 
 
