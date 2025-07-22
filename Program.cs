@@ -110,32 +110,34 @@ public class FunctionsExample
         //     System.Console.WriteLine("NO");
         // }
 
-        System.Console.WriteLine("номер билета");
-        int number = Convert.ToInt32(Console.ReadLine());
-        int first = number / 100000;
-        int second = number / 10000 % 10;
-        int thri = number / 1000 % 10;
-        int four = number / 100 % 10;
-        int five = number / 10 % 10;
-        int six = number / 1 % 10;
+        // System.Console.WriteLine("номер билета");
+        // int number = Convert.ToInt32(Console.ReadLine());
+        // int first = number / 100000;
+        // int second = number / 10000 % 10;
+        // int thri = number / 1000 % 10;
+        // int four = number / 100 % 10;
+        // int five = number / 10 % 10;
+        // int six = number / 1 % 10;
 
-        int sum = first + second + thri;
-        int sumSecond = four + five + six;
+        // int sum = first + second + thri;
+        // int sumSecond = four + five + six;
 
-        System.Console.WriteLine(first);
-        System.Console.WriteLine(second);
-        System.Console.WriteLine(thri);
-        System.Console.WriteLine(four);
-        System.Console.WriteLine(five);
-        System.Console.WriteLine(six);
+        // System.Console.WriteLine(first);
+        // System.Console.WriteLine(second);
+        // System.Console.WriteLine(thri);
+        // System.Console.WriteLine(four);
+        // System.Console.WriteLine(five);
+        // System.Console.WriteLine(six);
 
-        if (sum == sumSecond)
-        {
-            System.Console.WriteLine("Yes");
-        }
-        else
-        {
-            System.Console.WriteLine("No");
-        }
+        // if (sum == sumSecond)
+        // {
+        //     System.Console.WriteLine("Yes");
+        // }
+        // else
+        // {
+        //     System.Console.WriteLine("No");
+        // }
+
+        Second.calculater();
     }
 }
