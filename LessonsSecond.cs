@@ -36,11 +36,13 @@ public class Second
 
     public static void calculate()
     {
+        
 
         System.Console.WriteLine("Число");
         int number = Convert.ToInt32(Console.ReadLine());
-        string operato = Console.ReadLine()!;
+        string? operato = Console.ReadLine() ?? " ну и что ты ввел придерживайся условия" ;
         int numberSecond = Convert.ToInt32(Console.ReadLine());
+    
 
         if (operato != "/" && operato != "*" && operato != "-" && operato != "+")
         {
@@ -51,7 +53,7 @@ public class Second
         {
             if (operato == "/")
             {
-                if (number == 0 || numberSecond == 0)
+                if (numberSecond == 0)
                 {
                     System.Console.WriteLine("делить на 0 нельзя");
                 }
@@ -61,15 +63,9 @@ public class Second
                 }
             }
             else if (operato == "*")
+
             {
-                if (number == 0 || numberSecond == 0)
-                {
-                    System.Console.WriteLine("умножать на 0 нельзя");
-                }
-                else
-                {
-                    System.Console.WriteLine(number * numberSecond);
-                }
+                System.Console.WriteLine(number * numberSecond);
             }
             else if (operato == "-")
             {

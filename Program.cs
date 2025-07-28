@@ -37,7 +37,8 @@ public class FunctionsExample
         // System.Console.WriteLine(numSecond % numThri);
 
         // System.Console.WriteLine("Ведите пароль");
-        // string password = Console.ReadLine()!;
+        // string? password = Console.ReadLine();
+
 
         // System.Console.WriteLine("Повторите пароль");
         // string passwordTWo = Console.ReadLine()!;
@@ -138,7 +139,7 @@ public class FunctionsExample
         //     System.Console.WriteLine("No");
         // }
 
-         Second.calculate();
-        Second.testMonth();
+        Second.calculate();
+        // Second.testMonth();12
     }
 }
