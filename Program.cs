@@ -141,8 +141,12 @@ public class FunctionsExample
 
         // Second.calculate();
         // Second.testMonth();
-        // Three.Сycle();
-        Three.СycleTwo();
-    
+
+        // Задачи на циклы 
+
+        Three.TasksThreePointOne();
+        // Three.TasksThreePointTwo();
+        // Three.TasksThreePointTwoPointOne();
+        Three.TasksThreePointThree();
     }
 }

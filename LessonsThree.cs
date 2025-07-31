@@ -1,7 +1,8 @@
 public class Three
 {
-    public static void Сycle()
+    public static void TasksThreePointOne()
     {
+        // Задача 1
         for (int i = 0; i < 3; i++)
         {
             System.Console.WriteLine("BB");
@@ -19,8 +20,7 @@ public class Three
         }
         System.Console.WriteLine("GG");
 
-
-
+        // Задача 2
 
         System.Console.WriteLine("ww");
 
@@ -42,6 +42,7 @@ public class Three
         System.Console.WriteLine("EE");
         System.Console.WriteLine("HH");
 
+        // Задача 3
 
         for (int i = 0; i < 19; i++)
         {
@@ -49,12 +50,16 @@ public class Three
 
         }
 
+        // Задача 4
+
         int number = Convert.ToInt32(Console.ReadLine());
 
         for (int i = 0; i < number; i++)
         {
             System.Console.WriteLine("Привет Андрей! " + i);
         }
+
+        // Задача 5
 
         int numberTwo = Convert.ToInt32(Console.ReadLine());
         string? word = Console.ReadLine();
@@ -66,29 +71,34 @@ public class Three
     }
 
 
-    public static void СycleTwo()
+    public static void TasksThreePointTwo()
     {
+
+
+        // Задача 1
         int count = Convert.ToInt32(Console.ReadLine());
         int countTwo = 0;
 
         for (int i = 0; i < count; i++)
         {
-            int numberTwo = Convert.ToInt32(Console.ReadLine());
+            int number = Convert.ToInt32(Console.ReadLine());
 
-            if (numberTwo % 10 == 0)
+            if (number % 10 == 0)
             {
                 countTwo += 1;
             }
         }
         System.Console.WriteLine("Чисел с окончанием на 0" + " " + countTwo + "шт");
 
-        int number = 0;
+        // Задача 2
+
+        int countNumber = 0;
         int countThree = 0;
 
         for (int i = 0; i < count; i++)
         {
-            number = Convert.ToInt32(Console.ReadLine());
-            if (number == 0)
+            countNumber = Convert.ToInt32(Console.ReadLine());
+            if (countNumber == 0)
             {
                 countThree += 1;
             }
@@ -104,8 +114,49 @@ public class Three
         }
     }
 
+    public static void TasksThreePointTwoPointOne()
+    {
+        // Задача 1
+        int firstNumber = Convert.ToInt32(Console.ReadLine());
+        int secondNumber = Convert.ToInt32(Console.ReadLine());
 
+        for (int i = firstNumber; i <= secondNumber; i++)
+        {
+            if (i % 2 == 0)
+            {
+                System.Console.WriteLine(i);
+            }
+        }
+    }
+    public static void TasksThreePointThree()
+    {
+        // Задача 1
+         System.Console.WriteLine("Задача 1");
+        int number = Convert.ToInt32(Console.ReadLine());
+        int productOfNumbers = 1;
 
+        for (int i = productOfNumbers; i <= number; i++)
+        {
+            if ((i % 2) == 0)
+            {
+                productOfNumbers = productOfNumbers * i;
+            }
+        }
+        System.Console.WriteLine(productOfNumbers);
 
+        // Задача 2
+        System.Console.WriteLine("Задача 2");
+        int numberOne = Convert.ToInt32(Console.ReadLine());
+        int numberTwo = Convert.ToInt32(Console.ReadLine());
+        int productOfNumbersTwo = 1;
+
+        for (int i = numberOne; i <= numberTwo; i++)
+        {
+            productOfNumbersTwo = productOfNumbersTwo * i;
+
+        }
+        System.Console.WriteLine(productOfNumbersTwo);
+
+    }
 
 }
