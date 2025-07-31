@@ -8,17 +8,17 @@ public class Second
         int number = Convert.ToInt32(Console.ReadLine());
         int first = number / 100000;
         int second = number / 10000 % 10;
-        int thri = number / 1000 % 10;
+        int three = number / 1000 % 10;
         int four = number / 100 % 10;
         int five = number / 10 % 10;
         int six = number / 1 % 10;
 
-        int sum = first + second + thri;
+        int sum = first + second + three;
         int sumSecond = four + five + six;
 
         System.Console.WriteLine(first);
         System.Console.WriteLine(second);
-        System.Console.WriteLine(thri);
+        System.Console.WriteLine(three);
         System.Console.WriteLine(four);
         System.Console.WriteLine(five);
         System.Console.WriteLine(six);

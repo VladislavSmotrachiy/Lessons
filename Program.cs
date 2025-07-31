@@ -139,7 +139,10 @@ public class FunctionsExample
         //     System.Console.WriteLine("No");
         // }
 
-        Second.calculate();
-        // Second.testMonth();12
+        // Second.calculate();
+        // Second.testMonth();
+        // Three.Сycle();
+        Three.СycleTwo();
+    
     }
 }
