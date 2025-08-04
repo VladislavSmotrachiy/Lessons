@@ -73,8 +73,6 @@ public class Three
 
     public static void TasksThreePointTwo()
     {
-
-
         // Задача 1
         int count = Convert.ToInt32(Console.ReadLine());
         int countTwo = 0;
@@ -133,29 +131,28 @@ public class Three
         // Задача 1
          System.Console.WriteLine("Задача 1");
         int number = Convert.ToInt32(Console.ReadLine());
-        int productOfNumbers = 1;
+        int factorial = 1;
 
-        for (int i = productOfNumbers; i <= number; i++)
+        for (int i = factorial; i <= number; i++)
         {
             if ((i % 2) == 0)
             {
-                productOfNumbers = productOfNumbers * i;
+                factorial *=  i;
             }
         }
-        System.Console.WriteLine(productOfNumbers);
+        System.Console.WriteLine(factorial);
 
         // Задача 2
         System.Console.WriteLine("Задача 2");
         int numberOne = Convert.ToInt32(Console.ReadLine());
         int numberTwo = Convert.ToInt32(Console.ReadLine());
-        int productOfNumbersTwo = 1;
+        int factorialTwo = 1;
 
         for (int i = numberOne; i <= numberTwo; i++)
         {
-            productOfNumbersTwo = productOfNumbersTwo * i;
-
+            factorialTwo *= i;
         }
-        System.Console.WriteLine(productOfNumbersTwo);
+        System.Console.WriteLine(factorialTwo);
 
     }
 

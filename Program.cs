@@ -139,12 +139,14 @@ public class FunctionsExample
         //     System.Console.WriteLine("No");
         // }
 
+
+
         // Second.calculate();
         // Second.testMonth();
 
         // Задачи на циклы 
 
-        Three.TasksThreePointOne();
+        // Three.TasksThreePointOne();
         // Three.TasksThreePointTwo();
         // Three.TasksThreePointTwoPointOne();
         Three.TasksThreePointThree();
