@@ -149,6 +149,8 @@ public class FunctionsExample
         // Three.TasksThreePointOne();
         // Three.TasksThreePointTwo();
         // Three.TasksThreePointTwoPointOne();
-        Three.TasksThreePointThree();
+        // Three.TasksThreePointThree();
+        Four.TasksFour();
+         Four.FourTastTwo();
     }
 }
