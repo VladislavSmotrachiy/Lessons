@@ -34,7 +34,5 @@ public class Four
             System.Console.Write(check);
         }
     }
-
-
-
 }
+

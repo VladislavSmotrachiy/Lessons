@@ -150,7 +150,8 @@ public class FunctionsExample
         // Three.TasksThreePointTwo();
         // Three.TasksThreePointTwoPointOne();
         // Three.TasksThreePointThree();
-        Four.TasksFour();
-        Four.FourTastTwo();
+        // Four.TasksFour();
+        // Four.FourTastTwo();
+        Five.FiveTask();
     }
 }
