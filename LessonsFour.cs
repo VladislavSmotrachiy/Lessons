@@ -1,3 +1,5 @@
+// циклы while
+
 public class Four
 {
     public static void TasksFour()
@@ -24,14 +26,14 @@ public class Four
 
     public static void FourTastTwo()
     {
-    int number = Convert.ToInt32(Console.ReadLine());
-    while (number > 0)
+        int number = Convert.ToInt32(Console.ReadLine());
+        while (number > 0)
         {
             int check = number % 10;
             number /= 10;
             System.Console.Write(check);
         }
-}
+    }
 
 
 

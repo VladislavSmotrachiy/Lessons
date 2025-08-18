@@ -36,13 +36,13 @@ public class Second
 
     public static void calculate()
     {
-        
+
 
         System.Console.WriteLine("Число");
         int number = Convert.ToInt32(Console.ReadLine());
-        string? operato = Console.ReadLine() ?? " ну и что ты ввел придерживайся условия" ;
+        string? operato = Console.ReadLine() ?? " ну и что ты ввел придерживайся условия";
         int numberSecond = Convert.ToInt32(Console.ReadLine());
-    
+
 
         if (operato != "/" && operato != "*" && operato != "-" && operato != "+")
         {
