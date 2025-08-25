@@ -15,12 +15,12 @@ public class Five
         int nuberChar = (int)c;
         // int nuberCharTwo = nuberChar - 32;
 
-
-        if (nuberChar <= 65 && nuberChar <= 124)
+        
+        if (nuberChar <= 64 && nuberChar <= 124)
         {
             System.Console.WriteLine(" сэтим ничего недлья сделать");
         }
-        else if (nuberChar >= 65 && nuberChar <= 96)
+        else if (nuberChar >= 65 && nuberChar <= 90)
         {
             System.Console.WriteLine(Convert.ToChar(nuberChar + 32));
         }
@@ -29,4 +29,5 @@ public class Five
             System.Console.WriteLine(Convert.ToChar(nuberChar - 32));
         }
     }
+
 }

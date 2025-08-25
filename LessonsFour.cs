@@ -21,7 +21,6 @@ public class Four
         {
             System.Console.WriteLine("NO");
         }
-
     }
 
     public static void FourTastTwo()
