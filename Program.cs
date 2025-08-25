@@ -152,6 +152,7 @@ public class FunctionsExample
         // Three.TasksThreePointThree();
         // Four.TasksFour();
         // Four.FourTastTwo();
-        Six.GetChar();
+        Six.GetCountText();
+        Six.GetCharForText();
     }
 }
