@@ -152,7 +152,11 @@ public class FunctionsExample
         // Three.TasksThreePointThree();
         // Four.TasksFour();
         // Four.FourTastTwo();
-        Six.GetCountText();
-        Six.GetCharForText();
+        // Six.GetCountText();
+        // Six.GetCharForText();
+        Seven.GetText();
+        Seven.Repeat("Влад", 4);
+        System.Console.WriteLine(Seven.GetMessage());
+        Seven.GetNumber(1, 1, '/');
     }
 }
