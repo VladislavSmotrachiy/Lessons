@@ -154,9 +154,11 @@ public class FunctionsExample
         // Four.FourTastTwo();
         // Six.GetCountText();
         // Six.GetCharForText();
-        Seven.GetText();
-        Seven.Repeat("Влад", 4);
-        System.Console.WriteLine(Seven.GetMessage());
-        Seven.GetNumber(1, 1, '/');
+        // Seven.GetText();
+        // Seven.Repeat("Влад", 4);
+        // System.Console.WriteLine(Seven.GetMessage());
+        // Seven.GetNumber(1, 1, '/');
+        Eight.CheckNumber2();
+        Eight.CheckNumber();
     }
 }

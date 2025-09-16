@@ -51,9 +51,4 @@ public class Seven
 
         return answer;
     }
-
-
-
-
-
 }
