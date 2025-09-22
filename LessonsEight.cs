@@ -38,21 +38,19 @@ public class Eight
     public static void CheckNumber2()
     {
         int a = Convert.ToInt32(Console.ReadLine());
-        int[] numberstwo = new int[a];
-        for (int i = 0; i < numberstwo.Length; i++)
+        int[] myArray = new int[a];
+        for (int i = 0; i < myArray.Length; i++)
         {
-            numberstwo[i] = Convert.ToInt32(Console.ReadLine());
+            myArray[i] = Convert.ToInt32(Console.ReadLine());
         }
 
-        for (int i = 0; i < numberstwo.Length; i++)
+        for (int i = 0; i < myArray.Length; i++)
         {
 
-            if (numberstwo[i] % 3 == 0)
+            if (myArray[i] % 3 == 0)
             {
-                Console.WriteLine($" Элемент: {numberstwo[i]}");
+                Console.WriteLine($" Элемент: {myArray[i]}");
             }
         }
     }
-
-
 }

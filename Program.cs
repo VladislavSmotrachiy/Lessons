@@ -158,7 +158,8 @@ public class FunctionsExample
         // Seven.Repeat("Влад", 4);
         // System.Console.WriteLine(Seven.GetMessage());
         // Seven.GetNumber(1, 1, '/');
-        Eight.CheckNumber2();
-        Eight.CheckNumber();
+        // Eight.CheckNumber2();
+        // Eight.CheckNumber();
+        Nine.StartGame();
     }
 }
