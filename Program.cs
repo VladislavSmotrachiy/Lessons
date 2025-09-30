@@ -160,6 +160,13 @@ public class FunctionsExample
         // Seven.GetNumber(1, 1, '/');
         // Eight.CheckNumber2();
         // Eight.CheckNumber();
-        Nine.StartGame();
+        // Nine.StartGame();
+        Users users = new Users();
+        users.Name = "niki";
+        users.LastName = "";
+        users.age = 14;
+
+        users.PrintUsers();
+
     }
 }
