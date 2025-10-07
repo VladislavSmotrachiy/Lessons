@@ -46,6 +46,7 @@ public class Nine
         string surname = Console.ReadLine()!;
         System.Console.WriteLine("сколько тебе лет?");
         int age = Convert.ToInt32(Console.ReadLine()!);
+     
 
         System.Console.WriteLine($"Отлично, приятно познакомиться, {name + surname}, тебе уже {age}лет");
     }
