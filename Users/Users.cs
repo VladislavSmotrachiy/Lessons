@@ -12,6 +12,8 @@ public class Users
 
     {
         
+
+
         Console.WriteLine($" {Name} {lastName} {age} лет \n семейное положение: " + 
         $"{maritalStatus.Status} около: {maritalStatus.Years} лет \n " +
         $"номер телефона: {Faculty.PhoneNumber}, профессия: {Faculty.Profession}" +

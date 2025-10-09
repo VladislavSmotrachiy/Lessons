@@ -4,6 +4,8 @@ public class FunctionsExample
 {
     public static void Main(string[] args)
     {
+        
+
 
         Users users1 = new Users();
         users1.Name = "Влад";
@@ -56,7 +58,7 @@ public class FunctionsExample
 
 
 
-        
+
 
         List<Users> users = new List<Users>();
         users.Add(users1);
@@ -70,9 +72,9 @@ public class FunctionsExample
             if (users1.Gender != user.Gender)
             {
                 System.Console.WriteLine("совпало" + user.Gender);
-                
+
             }
-     
+
         }
 
         CheckSimilarity.Chek(users1.maritalStatus.Status, users2.maritalStatus.Status);

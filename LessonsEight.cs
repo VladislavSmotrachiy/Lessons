@@ -17,6 +17,7 @@ public class Eight
             if (i % 2 == 0)
             {
                 Console.WriteLine($" Элемент: {numbers[i]}");
+               
             }
         }
 
